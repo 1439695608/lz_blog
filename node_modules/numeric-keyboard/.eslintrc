@@ -1,0 +1,33 @@
+{
+  "root": true,
+
+  "plugins": [
+    "html"
+  ],
+
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+
+  "globals": {
+    "jasmine": false,
+    "describe": false,
+    "it": false,
+    "expect": false
+  },
+
+  "env": {
+    "browser": true
+  },
+
+  "extends": "eslint:recommended",
+
+  "rules": {
+    "no-console": 0
+  }
+}
